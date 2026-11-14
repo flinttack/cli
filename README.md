@@ -22,6 +22,10 @@ The installer puts two executables next to each other:
 `flinttack` looks for the engine in the directory of its own executable, then on `PATH`.
 Set `FLINTTACK_ENGINE` to use an engine at another location.
 
+To remove everything the installer added, run `flinttack uninstall` (`--dry-run` lists
+what would go, `--yes` skips the prompt, `--keep-cache` keeps the response cache). Project
+files such as `flinttack.lock` are never touched.
+
 ## Usage
 
 ```sh
