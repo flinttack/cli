@@ -1,4 +1,4 @@
-# Flinttack CLI
+# Flinttack
 
 Flinttack records the trust decision for each dependency in `flinttack.lock`, fails CI
 when that state drifts, and analyzes your own source code for vulnerabilities, committed
