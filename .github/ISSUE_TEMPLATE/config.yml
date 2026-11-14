@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
   - name: Security advisory
-    url: https://github.com/flinttack/cli/security/advisories/new
+    url: https://github.com/flinttack/flinttack/security/advisories/new
     about: Report a vulnerability privately

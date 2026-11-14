@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 Please report security issues privately through GitHub Security Advisories
-on [flinttack/flinttack](https://github.com/flinttack/cli/security/advisories/new).
+on [flinttack/flinttack](https://github.com/flinttack/flinttack/security/advisories/new).
 
 Do not open a public issue for an unreleased vulnerability.
 

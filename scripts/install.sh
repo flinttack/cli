@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-REPO="${REPO:-flinttack/cli}"
+REPO="${REPO:-flinttack/flinttack}"
 BINARY="${BINARY:-flinttack}"
 ENGINE_BINARY="${ENGINE_BINARY:-flinttack-engine}"
 INSTALL_DIR="${INSTALL_DIR:-}"
