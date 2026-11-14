@@ -8,7 +8,9 @@ never uploaded.
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/flinttack/cli/main/scripts/install.sh | sh
+curl -fsSL https://flinttack.sh/install | sh
+# a specific version
+curl -fsSL https://flinttack.sh/install | sh -s -- --version v0.1.0
 ```
 
 The installer puts two executables next to each other:
