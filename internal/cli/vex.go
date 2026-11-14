@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/internal/exceptions"
-	"github.com/flinttack/cli/internal/sbom"
-	"github.com/flinttack/cli/internal/vex"
-	pkgexceptions "github.com/flinttack/cli/pkg/exceptions"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/exceptions"
+	"github.com/flinttack/flinttack/internal/sbom"
+	"github.com/flinttack/flinttack/internal/vex"
+	pkgexceptions "github.com/flinttack/flinttack/pkg/exceptions"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 	"github.com/spf13/cobra"
 )
 

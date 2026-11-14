@@ -6,8 +6,8 @@ import (
 	"compress/gzip"
 	"testing"
 
-	"github.com/flinttack/cli/internal/capability"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/capability"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestFromMetadataInstallScript(t *testing.T) {

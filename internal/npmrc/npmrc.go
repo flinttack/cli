@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/flinttack/cli/internal/network"
+	"github.com/flinttack/flinttack/internal/network"
 )
 
 const DefaultRegistry = "https://registry.npmjs.org"

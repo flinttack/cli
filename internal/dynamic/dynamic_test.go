@@ -1,7 +1,7 @@
 package dynamic_test
 
 import (
-	"github.com/flinttack/cli/internal/dynamic"
+	"github.com/flinttack/flinttack/internal/dynamic"
 	"strings"
 	"testing"
 )

@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/goenv"
-	"github.com/flinttack/cli/internal/network"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/goenv"
+	"github.com/flinttack/flinttack/internal/network"
 	"golang.org/x/mod/modfile"
 )
 

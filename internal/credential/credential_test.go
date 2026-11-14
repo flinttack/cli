@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/flinttack/cli/internal/credential"
+	"github.com/flinttack/flinttack/internal/credential"
 	"net/http"
 	"net/http/httptest"
 	"strings"

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/lock"
+	"github.com/flinttack/flinttack/internal/lock"
 )
 
 func FuzzRead(f *testing.F) {

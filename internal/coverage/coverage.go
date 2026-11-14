@@ -1,7 +1,7 @@
 package coverage
 
 import (
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 	"net/url"
 	"slices"
 	"strings"

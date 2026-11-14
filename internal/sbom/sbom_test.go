@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/sbom"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/sbom"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func art(eco, name, version, digest string) lockfile.Artifact {

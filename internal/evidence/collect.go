@@ -3,8 +3,8 @@ package evidence
 import (
 	"context"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 type Record struct {

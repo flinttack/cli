@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 const lockfileName = "renv.lock"

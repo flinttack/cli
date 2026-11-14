@@ -5,9 +5,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/flinttack/cli/internal/cspm"
-	"github.com/flinttack/cli/internal/finding"
-	p "github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/cspm"
+	"github.com/flinttack/flinttack/internal/finding"
+	p "github.com/flinttack/flinttack/pkg/policy"
 	"github.com/spf13/cobra"
 	"strings"
 )

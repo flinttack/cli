@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/vex"
-	"github.com/flinttack/cli/pkg/exceptions"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/vex"
+	"github.com/flinttack/flinttack/pkg/exceptions"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 var stamp = time.Date(2026, 6, 15, 9, 30, 0, 0, time.UTC)

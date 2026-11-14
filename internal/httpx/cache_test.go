@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/httpx"
+	"github.com/flinttack/flinttack/internal/httpx"
 )
 
 // isolate points the cache at a fresh directory and restores the default settings after.

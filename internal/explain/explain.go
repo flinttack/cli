@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/flinttack/cli/internal/typosquat"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/typosquat"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 type Result struct {

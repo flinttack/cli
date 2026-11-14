@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 const (

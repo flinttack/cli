@@ -8,8 +8,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 type Side struct {

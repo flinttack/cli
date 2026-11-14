@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/diff"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/diff"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func art(name, version, digest string, status lockfile.Status) lockfile.Artifact {

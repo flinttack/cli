@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/goenv"
+	"github.com/flinttack/flinttack/internal/goenv"
 )
 
 func isolate(t *testing.T) {

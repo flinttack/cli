@@ -1,8 +1,8 @@
 package organization_test
 
 import (
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/organization"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/organization"
 	"strings"
 	"testing"
 )

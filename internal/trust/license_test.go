@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/trust"
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/trust"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 func licensed(declared string) lockfile.Artifact {

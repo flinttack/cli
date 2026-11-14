@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/cargo"
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/cargo"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 func crate(name, version string, deps ...string) string {

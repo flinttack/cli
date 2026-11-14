@@ -3,7 +3,7 @@ package policy_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 const defaultFingerprint = "sha256:a7b760ed4719640b3b9c63f1441e3fda7a2d511fec8f731edbd4ac280367e5c1"

@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/evidence"
-	"github.com/flinttack/cli/internal/osv"
-	"github.com/flinttack/cli/internal/scanner"
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/evidence"
+	"github.com/flinttack/flinttack/internal/osv"
+	"github.com/flinttack/flinttack/internal/scanner"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 type fakeOSV struct {

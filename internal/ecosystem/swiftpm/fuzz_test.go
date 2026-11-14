@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/swiftpm"
+	"github.com/flinttack/flinttack/internal/ecosystem/swiftpm"
 )
 
 func FuzzDependencies(f *testing.F) {

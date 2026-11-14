@@ -2,9 +2,9 @@ package control_test
 
 import (
 	"encoding/json"
-	"github.com/flinttack/cli/internal/control"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/runrecord"
+	"github.com/flinttack/flinttack/internal/control"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/runrecord"
 	"strings"
 	"testing"
 )

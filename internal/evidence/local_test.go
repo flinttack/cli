@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/evidence"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/evidence"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func signedPackageManifest(t *testing.T, identity, digest string) ([]byte, ed25519.PublicKey) {

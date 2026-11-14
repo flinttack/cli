@@ -2,9 +2,9 @@ package cli
 
 import (
 	"fmt"
-	"github.com/flinttack/cli/internal/control"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/protect"
+	"github.com/flinttack/flinttack/internal/control"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/protect"
 	"github.com/spf13/cobra"
 	"net"
 	"net/url"

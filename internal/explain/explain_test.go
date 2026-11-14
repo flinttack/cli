@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/explain"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/explain"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestExplainTrustedPackage(t *testing.T) {

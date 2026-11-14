@@ -3,11 +3,11 @@ package cli_test
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/flinttack/cli/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
 	"testing"
 
-	"github.com/flinttack/cli/internal/cli"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/cli"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 // runCLIExpectError runs the CLI and fails the test when it exits 0.

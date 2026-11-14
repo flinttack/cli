@@ -3,8 +3,8 @@ package osv_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/osv"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/osv"
 )
 
 func TestEcosystem(t *testing.T) {

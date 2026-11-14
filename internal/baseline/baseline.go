@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 func Read(r io.Reader) (finding.Report, error) {

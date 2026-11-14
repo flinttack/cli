@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/httpx"
+	"github.com/flinttack/flinttack/internal/httpx"
 )
 
 func TestDoSameOriginRedirect(t *testing.T) {

@@ -186,7 +186,7 @@ type sarifLogicalLocation struct {
 func WriteSARIF(w io.Writer, r Report) error {
 	driver := sarifDriver{
 		Name:           "flinttack " + r.Tool,
-		InformationURI: "https://github.com/flinttack/cli",
+		InformationURI: "https://github.com/flinttack/flinttack",
 		Rules:          []sarifRule{},
 	}
 	results := make([]sarifResult, 0, len(r.Findings))

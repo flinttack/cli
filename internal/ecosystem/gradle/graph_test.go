@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/ecosystem/gradle"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/gradle"
 )
 
 func TestScopeFromConfigurations(t *testing.T) {

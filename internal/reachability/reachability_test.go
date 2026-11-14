@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/flinttack/cli/internal/reachability"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/reachability"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func art(name string, scope lockfile.Scope, deps []string, vulns ...string) lockfile.Artifact {

@@ -2,7 +2,7 @@ package control_test
 
 import (
 	"bytes"
-	"github.com/flinttack/cli/internal/control"
+	"github.com/flinttack/flinttack/internal/control"
 	"os"
 	"path/filepath"
 	"strings"

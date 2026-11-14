@@ -2,11 +2,11 @@ package cli
 
 import (
 	"fmt"
-	"github.com/flinttack/cli/internal/baseline"
-	"github.com/flinttack/cli/internal/engine"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/progress"
-	"github.com/flinttack/cli/internal/remediation"
+	"github.com/flinttack/flinttack/internal/baseline"
+	"github.com/flinttack/flinttack/internal/engine"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/progress"
+	"github.com/flinttack/flinttack/internal/remediation"
 	"github.com/spf13/cobra"
 	"os"
 	"path/filepath"

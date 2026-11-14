@@ -10,7 +10,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 const MaxInventoryBytes = 16 << 20

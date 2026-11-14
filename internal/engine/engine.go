@@ -15,7 +15,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 // ProtocolVersion is the engine protocol this CLI speaks.

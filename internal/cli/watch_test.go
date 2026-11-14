@@ -1,7 +1,7 @@
 package cli_test
 
 import (
-	"github.com/flinttack/cli/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
 	"path/filepath"
 	"strings"
 	"testing"

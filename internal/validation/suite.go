@@ -3,7 +3,7 @@ package validation
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 	"io"
 	"slices"
 	"strings"

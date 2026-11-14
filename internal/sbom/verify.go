@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 const regenerate = "Regenerate the SBOM with flinttack sbom export."

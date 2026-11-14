@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/pnpm"
+	"github.com/flinttack/flinttack/internal/ecosystem/pnpm"
 )
 
 func FuzzDependencies(f *testing.F) {

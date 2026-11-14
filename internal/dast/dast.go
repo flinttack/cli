@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 const DefaultTimeout = 15 * time.Second

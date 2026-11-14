@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/yarn"
+	"github.com/flinttack/flinttack/internal/ecosystem/yarn"
 )
 
 func FuzzDependencies(f *testing.F) {

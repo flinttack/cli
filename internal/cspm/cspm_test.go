@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/cspm"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/cspm"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 func snapshot(typ string, config any, supplementary any) string {

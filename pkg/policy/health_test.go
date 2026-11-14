@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 func TestHealthRuleValidation(t *testing.T) {

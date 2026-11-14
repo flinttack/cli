@@ -4,9 +4,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/goenv"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/goenv"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 func DefaultRegistries() map[string][]string {

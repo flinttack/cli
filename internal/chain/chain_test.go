@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/chain"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/chain"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 func taint(id, subject string, sev finding.Severity, src, sink string) finding.Finding {

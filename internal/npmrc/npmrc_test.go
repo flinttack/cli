@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/npmrc"
+	"github.com/flinttack/flinttack/internal/npmrc"
 )
 
 func isolate(t *testing.T) {

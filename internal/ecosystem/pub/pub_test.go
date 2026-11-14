@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/ecosystem/pub"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/pub"
 )
 
 func TestDependencies(t *testing.T) {

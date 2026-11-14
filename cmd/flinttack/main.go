@@ -1,6 +1,6 @@
 package main
 
-import "github.com/flinttack/cli/internal/cli"
+import "github.com/flinttack/flinttack/internal/cli"
 
 var (
 	version = "dev"

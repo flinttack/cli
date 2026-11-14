@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/ecosystem/mix"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/mix"
 )
 
 const lock = `%{

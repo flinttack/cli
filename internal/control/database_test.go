@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/control"
-	"github.com/flinttack/cli/internal/identity"
+	"github.com/flinttack/flinttack/internal/control"
+	"github.com/flinttack/flinttack/internal/identity"
 )
 
 func TestDatabaseMigrationIsolationEncryptionAndRecovery(t *testing.T) {

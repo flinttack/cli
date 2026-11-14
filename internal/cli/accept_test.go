@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/cli"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/cli"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 func runCLIErr(t *testing.T, args ...string) (string, error) {

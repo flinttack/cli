@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/flinttack/cli/internal/network"
+	"github.com/flinttack/flinttack/internal/network"
 	"gopkg.in/yaml.v3"
 )
 

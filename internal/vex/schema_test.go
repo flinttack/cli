@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/flinttack/cli/internal/vex"
-	"github.com/flinttack/cli/pkg/exceptions"
+	"github.com/flinttack/flinttack/internal/vex"
+	"github.com/flinttack/flinttack/pkg/exceptions"
 )
 
 func TestVEXIsValidAgainstTheOfficialSchemas(t *testing.T) {

@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/httpx"
-	"github.com/flinttack/cli/internal/license"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/httpx"
+	"github.com/flinttack/flinttack/internal/license"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 	"golang.org/x/mod/module"
 )
 

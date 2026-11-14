@@ -7,7 +7,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/identity"
+	"github.com/flinttack/flinttack/internal/identity"
 	"net/http"
 	"strings"
 	"time"

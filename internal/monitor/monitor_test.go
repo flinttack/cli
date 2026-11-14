@@ -2,8 +2,8 @@ package monitor_test
 
 import (
 	"context"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/monitor"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/monitor"
 	"os"
 	"path/filepath"
 	"testing"

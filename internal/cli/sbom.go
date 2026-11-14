@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/lock"
-	"github.com/flinttack/cli/internal/sbom"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/lock"
+	"github.com/flinttack/flinttack/internal/sbom"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 	"github.com/spf13/cobra"
 )
 

@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/flinttack/cli/internal/diff"
-	"github.com/flinttack/cli/internal/lock"
-	"github.com/flinttack/cli/internal/policy"
-	"github.com/flinttack/cli/internal/scanner"
+	"github.com/flinttack/flinttack/internal/diff"
+	"github.com/flinttack/flinttack/internal/lock"
+	"github.com/flinttack/flinttack/internal/policy"
+	"github.com/flinttack/flinttack/internal/scanner"
 	"github.com/spf13/cobra"
 )
 

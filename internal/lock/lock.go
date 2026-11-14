@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/flinttack/cli/internal/decode"
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/decode"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 	"gopkg.in/yaml.v3"
 )
 

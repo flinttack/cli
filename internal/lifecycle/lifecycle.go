@@ -2,9 +2,9 @@ package lifecycle
 
 import (
 	"fmt"
-	"github.com/flinttack/cli/internal/baseline"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/runrecord"
+	"github.com/flinttack/flinttack/internal/baseline"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/runrecord"
 	"slices"
 	"strconv"
 	"strings"

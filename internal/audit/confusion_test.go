@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/audit"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/audit"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestDependencyConfusion(t *testing.T) {

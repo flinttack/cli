@@ -3,8 +3,8 @@ package control
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/identity"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/identity"
 	"io"
 	"net/http"
 	"slices"

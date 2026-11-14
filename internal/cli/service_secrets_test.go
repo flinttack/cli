@@ -3,8 +3,8 @@ package cli_test
 import (
 	"bytes"
 	"encoding/base64"
-	"github.com/flinttack/cli/internal/control"
-	"github.com/flinttack/cli/internal/identity"
+	"github.com/flinttack/flinttack/internal/control"
+	"github.com/flinttack/flinttack/internal/identity"
 	"os"
 	"path/filepath"
 	"testing"

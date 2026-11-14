@@ -2,7 +2,7 @@ package cli
 
 import (
 	"fmt"
-	"github.com/flinttack/cli/internal/control"
+	"github.com/flinttack/flinttack/internal/control"
 	"github.com/spf13/cobra"
 	"os"
 )

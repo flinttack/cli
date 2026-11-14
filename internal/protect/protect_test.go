@@ -2,9 +2,9 @@ package protect_test
 
 import (
 	"context"
-	"github.com/flinttack/cli/internal/control"
-	"github.com/flinttack/cli/internal/engine/enginetest"
-	"github.com/flinttack/cli/internal/protect"
+	"github.com/flinttack/flinttack/internal/control"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/protect"
 	"os"
 	"os/exec"
 	"path/filepath"

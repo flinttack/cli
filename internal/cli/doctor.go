@@ -1,8 +1,8 @@
 package cli
 
 import (
-	"github.com/flinttack/cli/internal/doctor"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/doctor"
+	"github.com/flinttack/flinttack/internal/finding"
 	"github.com/spf13/cobra"
 )
 

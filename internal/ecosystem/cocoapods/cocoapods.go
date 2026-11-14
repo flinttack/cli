@@ -7,7 +7,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 const lockfileName = "Podfile.lock"

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/exceptions"
+	"github.com/flinttack/flinttack/internal/exceptions"
 )
 
 func FuzzLoad(f *testing.F) {

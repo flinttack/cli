@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 // PropertyPrefix namespaces the trust evidence flinttack adds to an SBOM.

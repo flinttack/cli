@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/progress"
+	"github.com/flinttack/flinttack/internal/progress"
 )
 
 func TestReporterIsOptionalAndScoped(t *testing.T) {

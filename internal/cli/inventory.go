@@ -3,8 +3,8 @@ package cli
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/external"
-	"github.com/flinttack/cli/internal/inventory"
+	"github.com/flinttack/flinttack/internal/external"
+	"github.com/flinttack/flinttack/internal/inventory"
 	"github.com/spf13/cobra"
 	"os"
 )

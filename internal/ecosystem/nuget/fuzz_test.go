@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/nuget"
+	"github.com/flinttack/flinttack/internal/ecosystem/nuget"
 )
 
 func FuzzDependencies(f *testing.F) {

@@ -2,8 +2,8 @@ package cli
 
 import (
 	"fmt"
-	"github.com/flinttack/cli/internal/dast"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/dast"
+	"github.com/flinttack/flinttack/internal/finding"
 	"github.com/spf13/cobra"
 	"os"
 )

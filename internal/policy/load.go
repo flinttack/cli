@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/flinttack/cli/internal/decode"
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/decode"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 func Load(path string) (policy.Document, error) {

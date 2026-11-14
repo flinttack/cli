@@ -9,7 +9,7 @@ package reachability
 import (
 	"sort"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 // Annotate sets Reachable and Via on every checked vulnerability in the document.

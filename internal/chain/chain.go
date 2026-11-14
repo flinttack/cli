@@ -13,7 +13,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 // Stage is the role a finding plays in an attack chain.

@@ -3,7 +3,7 @@ package cargo
 import (
 	"path/filepath"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 	"github.com/pelletier/go-toml/v2"
 )
 

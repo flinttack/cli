@@ -5,11 +5,11 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/license"
-	"github.com/flinttack/cli/internal/typosquat"
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/license"
+	"github.com/flinttack/flinttack/internal/typosquat"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 func Evaluate(art *lockfile.Artifact, pol policy.Document) {

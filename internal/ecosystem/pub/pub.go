@@ -3,8 +3,8 @@ package pub
 import (
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/network"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/network"
 	"gopkg.in/yaml.v3"
 )
 

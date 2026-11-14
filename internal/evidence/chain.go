@@ -6,7 +6,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 // extractChain walks an npm attestations payload and pulls source/build

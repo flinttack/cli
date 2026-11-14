@@ -3,8 +3,8 @@ package prioritization
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/baseline"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/baseline"
+	"github.com/flinttack/flinttack/internal/finding"
 	"io"
 	"slices"
 	"strings"

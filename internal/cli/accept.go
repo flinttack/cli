@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/internal/exceptions"
-	pkgexceptions "github.com/flinttack/cli/pkg/exceptions"
+	"github.com/flinttack/flinttack/internal/exceptions"
+	pkgexceptions "github.com/flinttack/flinttack/pkg/exceptions"
 	"github.com/spf13/cobra"
 )
 

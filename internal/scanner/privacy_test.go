@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/scanner"
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/scanner"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 func TestPrivacyMatrix(t *testing.T) {

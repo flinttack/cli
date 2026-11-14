@@ -12,9 +12,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 type DSSE struct {

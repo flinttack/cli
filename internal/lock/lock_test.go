@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/lock"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/lock"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func validEvidence() lockfile.Evidence {

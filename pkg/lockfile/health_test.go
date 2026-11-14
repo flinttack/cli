@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func healthDoc(h *lockfile.HealthEvidence) lockfile.Document {

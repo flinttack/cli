@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/cli"
+	"github.com/flinttack/flinttack/internal/cli"
 )
 
 type sarifResults struct {

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/flinttack/cli/internal/workspace"
+	"github.com/flinttack/flinttack/internal/workspace"
 	"github.com/spf13/cobra"
 )
 

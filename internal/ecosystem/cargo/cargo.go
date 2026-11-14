@@ -5,8 +5,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/network"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/network"
 	"github.com/pelletier/go-toml/v2"
 )
 

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/nugetconfig"
+	"github.com/flinttack/flinttack/internal/nugetconfig"
 )
 
 func isolate(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 // PURL returns the Package URL for an artifact, or "" when its ecosystem has no

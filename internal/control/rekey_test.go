@@ -2,8 +2,8 @@ package control_test
 
 import (
 	"bytes"
-	"github.com/flinttack/cli/internal/control"
-	"github.com/flinttack/cli/internal/identity"
+	"github.com/flinttack/flinttack/internal/control"
+	"github.com/flinttack/flinttack/internal/identity"
 	"path/filepath"
 	"reflect"
 	"testing"

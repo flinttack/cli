@@ -2,9 +2,9 @@ package dashboard_test
 
 import (
 	"bytes"
-	"github.com/flinttack/cli/internal/dashboard"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/lifecycle"
+	"github.com/flinttack/flinttack/internal/dashboard"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/lifecycle"
 	"strings"
 	"testing"
 )

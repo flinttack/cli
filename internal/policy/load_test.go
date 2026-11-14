@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/policy"
+	"github.com/flinttack/flinttack/internal/policy"
 )
 
 func TestLoadRejectsUnknownField(t *testing.T) {

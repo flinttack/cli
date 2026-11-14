@@ -3,8 +3,8 @@ package scanner
 import (
 	"strings"
 
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 // Findings reports every artifact that did not pass the active policy.

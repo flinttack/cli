@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/flinttack/cli/internal/engine"
-	"github.com/flinttack/cli/internal/exceptions"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/progress"
+	"github.com/flinttack/flinttack/internal/engine"
+	"github.com/flinttack/flinttack/internal/exceptions"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/progress"
 	"github.com/spf13/cobra"
 )
 

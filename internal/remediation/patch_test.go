@@ -1,10 +1,10 @@
 package remediation_test
 
 import (
-	"github.com/flinttack/cli/internal/engine"
-	"github.com/flinttack/cli/internal/engine/enginetest"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/remediation"
+	"github.com/flinttack/flinttack/internal/engine"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/remediation"
 	"os"
 	"path/filepath"
 	"strings"

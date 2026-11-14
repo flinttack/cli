@@ -3,7 +3,7 @@ package cli
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/prioritization"
+	"github.com/flinttack/flinttack/internal/prioritization"
 	"github.com/spf13/cobra"
 	"os"
 )

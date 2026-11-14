@@ -1,8 +1,8 @@
 package validation_test
 
 import (
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/validation"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/validation"
 	"strings"
 	"testing"
 )

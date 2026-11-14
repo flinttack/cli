@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/external"
+	"github.com/flinttack/flinttack/internal/external"
 	"io/fs"
 	"os"
 	"path/filepath"

@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/cabal"
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/cabal"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 func load(t *testing.T, files map[string]string) []core.Dependency {

@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/flinttack/cli/internal/decode"
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/pkg/exceptions"
+	"github.com/flinttack/flinttack/internal/decode"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/pkg/exceptions"
 	"gopkg.in/yaml.v3"
 )
 

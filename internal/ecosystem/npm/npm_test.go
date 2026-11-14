@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/npm"
+	"github.com/flinttack/flinttack/internal/ecosystem/npm"
 )
 
 func TestDependencies(t *testing.T) {

@@ -1,9 +1,9 @@
 package cli
 
 import (
-	"github.com/flinttack/cli/internal/dashboard"
-	"github.com/flinttack/cli/internal/lifecycle"
-	"github.com/flinttack/cli/internal/runrecord"
+	"github.com/flinttack/flinttack/internal/dashboard"
+	"github.com/flinttack/flinttack/internal/lifecycle"
+	"github.com/flinttack/flinttack/internal/runrecord"
 	"github.com/spf13/cobra"
 	"os"
 )

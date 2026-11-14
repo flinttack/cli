@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/composer"
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/composer"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 func TestScopeAndEdges(t *testing.T) {

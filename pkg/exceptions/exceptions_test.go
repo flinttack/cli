@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/pkg/exceptions"
+	"github.com/flinttack/flinttack/pkg/exceptions"
 )
 
 func day(s string) time.Time {

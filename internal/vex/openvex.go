@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/flinttack/cli/pkg/exceptions"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/exceptions"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 type openVEX struct {

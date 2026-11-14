@@ -2,13 +2,13 @@ package cli_test
 
 import (
 	"encoding/json"
-	"github.com/flinttack/cli/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
 	"os"
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/quality"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/quality"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 func TestQualityPerRuleOutputAndSchema(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/flinttack/cli/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/ecosystem"
 )
 
 // Multi fans out Collect across collectors and merges records by key.

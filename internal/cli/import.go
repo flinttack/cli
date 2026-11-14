@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/flinttack/cli/internal/exceptions"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/exceptions"
+	"github.com/flinttack/flinttack/internal/finding"
 	"github.com/spf13/cobra"
 )
 

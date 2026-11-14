@@ -10,7 +10,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 const (

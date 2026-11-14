@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/internal/sbom"
-	"github.com/flinttack/cli/pkg/exceptions"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/sbom"
+	"github.com/flinttack/flinttack/pkg/exceptions"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 // ErrNothingToExport means no active exception names an advisory present in the lockfile.

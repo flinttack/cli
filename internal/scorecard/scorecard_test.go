@@ -7,10 +7,10 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/flinttack/cli/internal/httpx"
-	"github.com/flinttack/cli/internal/scorecard"
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/httpx"
+	"github.com/flinttack/flinttack/internal/scorecard"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 // server fakes the two deps.dev endpoints by the path it is asked for.

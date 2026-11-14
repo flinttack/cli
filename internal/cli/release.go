@@ -5,9 +5,9 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/inventory"
-	"github.com/flinttack/cli/internal/release"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/inventory"
+	"github.com/flinttack/flinttack/internal/release"
 	"github.com/spf13/cobra"
 	"os"
 )

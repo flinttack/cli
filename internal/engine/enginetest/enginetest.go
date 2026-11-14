@@ -4,7 +4,7 @@ package enginetest
 import (
 	"testing"
 
-	"github.com/flinttack/cli/internal/engine"
+	"github.com/flinttack/flinttack/internal/engine"
 )
 
 // Require skips the test unless the engine executable can be located.

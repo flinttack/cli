@@ -3,8 +3,8 @@ package inventory_test
 import (
 	"context"
 	"encoding/json"
-	"github.com/flinttack/cli/internal/inventory"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/inventory"
+	"github.com/flinttack/flinttack/schemas"
 	"os"
 	"os/exec"
 	"path/filepath"

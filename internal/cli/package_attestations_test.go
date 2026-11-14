@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 func TestOfflinePackageAttestationsAndSignerDrift(t *testing.T) {

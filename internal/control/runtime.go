@@ -3,7 +3,7 @@ package control
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/identity"
+	"github.com/flinttack/flinttack/internal/identity"
 	"net"
 	"net/http"
 	"strings"

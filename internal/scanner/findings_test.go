@@ -3,9 +3,9 @@ package scanner_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/scanner"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/scanner"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestFindingsSkipTrustedArtifacts(t *testing.T) {

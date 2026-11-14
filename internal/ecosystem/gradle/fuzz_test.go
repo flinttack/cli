@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/gradle"
+	"github.com/flinttack/flinttack/internal/ecosystem/gradle"
 )
 
 func FuzzDependencies(f *testing.F) {

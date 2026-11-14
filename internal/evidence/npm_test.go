@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/evidence"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/evidence"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestNPMEvidence(t *testing.T) {

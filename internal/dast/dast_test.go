@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/dast"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/dast"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 func ids(r finding.Report) map[string]bool {

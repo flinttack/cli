@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/flinttack/cli/internal/evidence"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/evidence"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestExtractChainFromPredicate(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/exceptions"
-	"github.com/flinttack/cli/internal/finding"
-	pkg "github.com/flinttack/cli/pkg/exceptions"
+	"github.com/flinttack/flinttack/internal/exceptions"
+	"github.com/flinttack/flinttack/internal/finding"
+	pkg "github.com/flinttack/flinttack/pkg/exceptions"
 )
 
 var now = time.Date(2026, 6, 15, 12, 0, 0, 0, time.UTC)

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/internal/exceptions"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/lock"
-	"github.com/flinttack/cli/internal/policy"
+	"github.com/flinttack/flinttack/internal/exceptions"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/lock"
+	"github.com/flinttack/flinttack/internal/policy"
 )
 
 type Options struct {

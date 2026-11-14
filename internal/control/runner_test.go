@@ -2,7 +2,7 @@ package control_test
 
 import (
 	"encoding/json"
-	"github.com/flinttack/cli/internal/control"
+	"github.com/flinttack/flinttack/internal/control"
 	"testing"
 )
 

@@ -2,8 +2,8 @@ package history_test
 
 import (
 	"context"
-	"github.com/flinttack/cli/internal/engine/enginetest"
-	"github.com/flinttack/cli/internal/history"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/history"
 	"os"
 	"os/exec"
 	"path/filepath"

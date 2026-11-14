@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/cli"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/cli"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 // updatedProject is a locked Deno project whose dependency then moves to a new version.

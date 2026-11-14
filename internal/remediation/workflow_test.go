@@ -2,9 +2,9 @@ package remediation_test
 
 import (
 	"context"
-	"github.com/flinttack/cli/internal/engine/enginetest"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/remediation"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/remediation"
 	"os"
 	"os/exec"
 	"path/filepath"

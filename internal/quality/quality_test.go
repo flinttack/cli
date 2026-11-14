@@ -2,9 +2,9 @@ package quality_test
 
 import (
 	"fmt"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/quality"
-	"github.com/flinttack/cli/internal/validation"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/quality"
+	"github.com/flinttack/flinttack/internal/validation"
 	"os"
 	"path/filepath"
 	"testing"

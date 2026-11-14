@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/flinttack/cli/internal/workspace"
+	"github.com/flinttack/flinttack/internal/workspace"
 )
 
 func touch(t *testing.T, root string, paths ...string) {

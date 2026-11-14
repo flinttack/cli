@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 type junitDoc struct {

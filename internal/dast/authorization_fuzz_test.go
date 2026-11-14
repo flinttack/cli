@@ -1,7 +1,7 @@
 package dast_test
 
 import (
-	"github.com/flinttack/cli/internal/dast"
+	"github.com/flinttack/flinttack/internal/dast"
 	"strings"
 	"testing"
 )

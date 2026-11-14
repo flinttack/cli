@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 type Node struct {

@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/flinttack/cli/internal/httpx"
+	"github.com/flinttack/flinttack/internal/httpx"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 )

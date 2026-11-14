@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/yarnrc"
+	"github.com/flinttack/flinttack/internal/yarnrc"
 )
 
 func isolate(t *testing.T) {

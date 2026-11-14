@@ -3,8 +3,8 @@ package verify_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/internal/verify"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/verify"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestCompareTrustDrift(t *testing.T) {

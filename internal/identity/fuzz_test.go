@@ -7,7 +7,7 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"encoding/json"
-	"github.com/flinttack/cli/internal/identity"
+	"github.com/flinttack/flinttack/internal/identity"
 	"math/big"
 	"testing"
 	"time"

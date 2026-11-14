@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/network"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/network"
 )
 
 const lockfileName = "Pipfile.lock"

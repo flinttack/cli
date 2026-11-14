@@ -3,7 +3,7 @@ package diff
 import (
 	"strings"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 // Findings turns trust drift into findings so it can be written in any report format.

@@ -2,13 +2,13 @@ package cli_test
 
 import (
 	"encoding/json"
-	"github.com/flinttack/cli/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
 	"os"
 	"path/filepath"
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 func writeImportSARIF(t *testing.T, project string) string {

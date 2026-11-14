@@ -1,8 +1,8 @@
 package prioritization_test
 
 import (
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/prioritization"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/prioritization"
 	"strings"
 	"testing"
 )

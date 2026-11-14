@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/evidence"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/evidence"
 )
 
 // gateCollector returns only once the other collector has started, so collectors that

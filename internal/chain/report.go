@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 // Count returns the number of chains at each severity, confirmed and possible alike.

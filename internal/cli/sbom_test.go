@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/cli"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/cli"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 func lockedDenoProject(t *testing.T) string {

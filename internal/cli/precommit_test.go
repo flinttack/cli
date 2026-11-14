@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/cli"
+	"github.com/flinttack/flinttack/internal/cli"
 	"gopkg.in/yaml.v3"
 )
 

@@ -2,8 +2,8 @@ package control
 
 import (
 	"fmt"
-	"github.com/flinttack/cli/internal/identity"
-	"github.com/flinttack/cli/internal/lifecycle"
+	"github.com/flinttack/flinttack/internal/identity"
+	"github.com/flinttack/flinttack/internal/lifecycle"
 	"net/http"
 	"strings"
 	"time"

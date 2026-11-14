@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/diff"
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/diff"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 func TestCompareTrustDrift(t *testing.T) {

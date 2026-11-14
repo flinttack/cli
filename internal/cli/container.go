@@ -3,11 +3,11 @@ package cli
 import (
 	"bytes"
 	"fmt"
-	"github.com/flinttack/cli/internal/exceptions"
-	"github.com/flinttack/cli/internal/external"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/policy"
-	p "github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/exceptions"
+	"github.com/flinttack/flinttack/internal/external"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/policy"
+	p "github.com/flinttack/flinttack/pkg/policy"
 	"github.com/spf13/cobra"
 	"time"
 )

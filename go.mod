@@ -1,4 +1,4 @@
-module github.com/flinttack/cli
+module github.com/flinttack/flinttack
 
 go 1.26.0
 

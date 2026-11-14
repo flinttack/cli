@@ -3,7 +3,7 @@ package schemas_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 func TestURLArtifactOmitsVersion(t *testing.T) {

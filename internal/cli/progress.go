@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/flinttack/cli/internal/progress"
+	"github.com/flinttack/flinttack/internal/progress"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 )

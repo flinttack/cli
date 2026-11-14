@@ -3,8 +3,8 @@ package evidence_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/evidence"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/evidence"
 )
 
 func TestKeyIncludesFilename(t *testing.T) {

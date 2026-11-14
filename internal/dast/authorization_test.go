@@ -3,7 +3,7 @@ package dast_test
 import (
 	"context"
 	"fmt"
-	"github.com/flinttack/cli/internal/dast"
+	"github.com/flinttack/flinttack/internal/dast"
 	"net/http"
 	"net/http/httptest"
 	"strings"

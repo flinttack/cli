@@ -1,8 +1,8 @@
 package coverage_test
 
 import (
-	"github.com/flinttack/cli/internal/coverage"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/coverage"
+	"github.com/flinttack/flinttack/internal/finding"
 	"testing"
 )
 

@@ -3,7 +3,7 @@ package lockfile_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestMigrateV1(t *testing.T) {

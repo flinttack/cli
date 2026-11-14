@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/flinttack/cli/internal/dast"
+	"github.com/flinttack/flinttack/internal/dast"
 )
 
 //go:embed browser.cjs

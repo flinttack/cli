@@ -3,7 +3,7 @@ package bundler
 import (
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 const lockfileName = "Gemfile.lock"

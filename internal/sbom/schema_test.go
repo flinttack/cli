@@ -3,8 +3,8 @@ package sbom_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/internal/sbom"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/sbom"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 // The exports are checked against the official schemas, since SBOM consumers will.

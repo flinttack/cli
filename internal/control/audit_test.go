@@ -5,7 +5,7 @@ import (
 	"crypto/ed25519"
 	"encoding/base64"
 	"encoding/json"
-	"github.com/flinttack/cli/internal/control"
+	"github.com/flinttack/flinttack/internal/control"
 	"testing"
 	"time"
 )

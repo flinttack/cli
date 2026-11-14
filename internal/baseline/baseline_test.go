@@ -1,8 +1,8 @@
 package baseline_test
 
 import (
-	"github.com/flinttack/cli/internal/baseline"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/baseline"
+	"github.com/flinttack/flinttack/internal/finding"
 	"testing"
 )
 

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/internal/httpx"
-	"github.com/flinttack/cli/internal/lock"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/httpx"
+	"github.com/flinttack/flinttack/internal/lock"
+	"github.com/flinttack/flinttack/pkg/policy"
 	"github.com/spf13/cobra"
 )
 

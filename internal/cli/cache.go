@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/flinttack/cli/internal/httpx"
+	"github.com/flinttack/flinttack/internal/httpx"
 	"github.com/spf13/cobra"
 )
 

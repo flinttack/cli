@@ -6,10 +6,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/policy"
-	"github.com/flinttack/cli/internal/scanner"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/policy"
+	"github.com/flinttack/flinttack/internal/scanner"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 	"github.com/spf13/cobra"
 )
 

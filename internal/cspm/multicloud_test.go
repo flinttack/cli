@@ -1,7 +1,7 @@
 package cspm_test
 
 import (
-	"github.com/flinttack/cli/internal/cspm"
+	"github.com/flinttack/flinttack/internal/cspm"
 	"testing"
 )
 

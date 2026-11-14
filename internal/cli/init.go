@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/lock"
-	"github.com/flinttack/cli/internal/policy"
-	"github.com/flinttack/cli/internal/scanner"
-	pkgpolicy "github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/lock"
+	"github.com/flinttack/flinttack/internal/policy"
+	"github.com/flinttack/flinttack/internal/scanner"
+	pkgpolicy "github.com/flinttack/flinttack/pkg/policy"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 )

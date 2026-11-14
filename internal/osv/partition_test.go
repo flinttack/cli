@@ -3,8 +3,8 @@ package osv_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/internal/osv"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/osv"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestPartitionMaliciousIDs(t *testing.T) {

@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/flinttack/cli/internal/cspm"
-	"github.com/flinttack/cli/internal/exceptions"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/policy"
-	pkgpolicy "github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/cspm"
+	"github.com/flinttack/flinttack/internal/exceptions"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/policy"
+	pkgpolicy "github.com/flinttack/flinttack/pkg/policy"
 	"github.com/spf13/cobra"
 )
 

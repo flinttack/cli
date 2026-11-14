@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/cocoapods"
+	"github.com/flinttack/flinttack/internal/ecosystem/cocoapods"
 )
 
 func FuzzDependencies(f *testing.F) {

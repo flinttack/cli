@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/ecosystem/deno"
-	"github.com/flinttack/cli/internal/npmrc"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/deno"
+	"github.com/flinttack/flinttack/internal/npmrc"
 )
 
 func isolate(t *testing.T) {

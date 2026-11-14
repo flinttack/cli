@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/osv"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/osv"
 )
 
 func TestQueryPagination(t *testing.T) {

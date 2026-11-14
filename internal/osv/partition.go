@@ -3,7 +3,7 @@ package osv
 import (
 	"strings"
 
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 // Partition separates OSV hit IDs into vulnerabilities and malicious

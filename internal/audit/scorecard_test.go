@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/audit"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/scorecard"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/audit"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/scorecard"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestLowScorecard(t *testing.T) {

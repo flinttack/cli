@@ -2,7 +2,7 @@ package control_test
 
 import (
 	"context"
-	"github.com/flinttack/cli/internal/control"
+	"github.com/flinttack/flinttack/internal/control"
 	"net/http"
 	"net/http/httptest"
 	"testing"

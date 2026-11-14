@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/httpx"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/httpx"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 const defaultVulnEndpoint = "https://api.osv.dev/v1/vulns/"

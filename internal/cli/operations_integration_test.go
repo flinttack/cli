@@ -2,10 +2,10 @@ package cli_test
 
 import (
 	"encoding/json"
-	"github.com/flinttack/cli/internal/engine/enginetest"
-	"github.com/flinttack/cli/internal/lifecycle"
-	"github.com/flinttack/cli/internal/runrecord"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/lifecycle"
+	"github.com/flinttack/flinttack/internal/runrecord"
+	"github.com/flinttack/flinttack/schemas"
 	"os"
 	"path/filepath"
 	"testing"

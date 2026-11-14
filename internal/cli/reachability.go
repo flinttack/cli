@@ -7,8 +7,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/flinttack/cli/internal/engine"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/engine"
+	"github.com/flinttack/flinttack/internal/finding"
 	"github.com/spf13/cobra"
 )
 

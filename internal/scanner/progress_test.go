@@ -6,8 +6,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/flinttack/cli/internal/progress"
-	"github.com/flinttack/cli/internal/scanner"
+	"github.com/flinttack/flinttack/internal/progress"
+	"github.com/flinttack/flinttack/internal/scanner"
 )
 
 func TestScanProgressPreservesResults(t *testing.T) {

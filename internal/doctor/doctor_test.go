@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flinttack/cli/internal/doctor"
-	"github.com/flinttack/cli/internal/finding"
+	"github.com/flinttack/flinttack/internal/doctor"
+	"github.com/flinttack/flinttack/internal/finding"
 )
 
 func write(t *testing.T, dir, name, body string) {

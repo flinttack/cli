@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/flinttack/cli/internal/osv"
+	"github.com/flinttack/flinttack/internal/osv"
 )
 
 func TestDetailsCVEs(t *testing.T) {

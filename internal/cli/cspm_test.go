@@ -2,15 +2,15 @@ package cli_test
 
 import (
 	"encoding/json"
-	"github.com/flinttack/cli/internal/engine/enginetest"
+	"github.com/flinttack/flinttack/internal/engine/enginetest"
 	"os"
 	"path/filepath"
 	"runtime"
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/schemas"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/schemas"
 )
 
 const cspmSnapshot = `{"configurationItems":[{"resourceType":"AWS::RDS::DBInstance","resourceId":"db-1","accountId":"123456789012","awsRegion":"ap-northeast-1","configuration":{"publiclyAccessible":true,"storageEncrypted":true,"backupRetentionPeriod":7}}]}`

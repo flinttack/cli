@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 func TestCVSS3Score(t *testing.T) {

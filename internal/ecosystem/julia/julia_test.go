@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
-	"github.com/flinttack/cli/internal/ecosystem/julia"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/julia"
 )
 
 func load(t *testing.T, files map[string]string) []core.Dependency {

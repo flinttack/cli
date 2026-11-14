@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 func TestReadFileLimit(t *testing.T) {

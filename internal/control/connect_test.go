@@ -3,7 +3,7 @@ package control_test
 import (
 	"context"
 	"encoding/json"
-	"github.com/flinttack/cli/internal/control"
+	"github.com/flinttack/flinttack/internal/control"
 	"net/http"
 	"net/http/httptest"
 	"testing"

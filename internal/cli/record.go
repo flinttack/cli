@@ -2,8 +2,8 @@ package cli
 
 import (
 	"fmt"
-	"github.com/flinttack/cli/internal/finding"
-	"github.com/flinttack/cli/internal/runrecord"
+	"github.com/flinttack/flinttack/internal/finding"
+	"github.com/flinttack/flinttack/internal/runrecord"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"os"

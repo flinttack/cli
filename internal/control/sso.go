@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/flinttack/cli/internal/identity"
+	"github.com/flinttack/flinttack/internal/identity"
 	"io"
 	"net"
 	"net/http"

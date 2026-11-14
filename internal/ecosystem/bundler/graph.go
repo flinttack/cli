@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 // applyGraph records edges and scopes. Gemfile.lock lists the gems the Gemfile asks for under

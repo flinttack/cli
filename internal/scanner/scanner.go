@@ -9,16 +9,16 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/flinttack/cli/internal/ecosystem"
-	"github.com/flinttack/cli/internal/evidence"
-	"github.com/flinttack/cli/internal/network"
-	"github.com/flinttack/cli/internal/osv"
-	"github.com/flinttack/cli/internal/progress"
-	"github.com/flinttack/cli/internal/provenance"
-	"github.com/flinttack/cli/internal/reachability"
-	"github.com/flinttack/cli/internal/trust"
-	"github.com/flinttack/cli/pkg/lockfile"
-	"github.com/flinttack/cli/pkg/policy"
+	"github.com/flinttack/flinttack/internal/ecosystem"
+	"github.com/flinttack/flinttack/internal/evidence"
+	"github.com/flinttack/flinttack/internal/network"
+	"github.com/flinttack/flinttack/internal/osv"
+	"github.com/flinttack/flinttack/internal/progress"
+	"github.com/flinttack/flinttack/internal/provenance"
+	"github.com/flinttack/flinttack/internal/reachability"
+	"github.com/flinttack/flinttack/internal/trust"
+	"github.com/flinttack/flinttack/pkg/lockfile"
+	"github.com/flinttack/flinttack/pkg/policy"
 )
 
 type Options struct {

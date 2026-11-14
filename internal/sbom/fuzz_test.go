@@ -3,7 +3,7 @@ package sbom_test
 import (
 	"testing"
 
-	"github.com/flinttack/cli/internal/sbom"
+	"github.com/flinttack/flinttack/internal/sbom"
 )
 
 func FuzzParse(f *testing.F) {

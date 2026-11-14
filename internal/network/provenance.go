@@ -3,7 +3,7 @@ package network
 import (
 	"strings"
 
-	"github.com/flinttack/cli/internal/ecosystem/core"
+	"github.com/flinttack/flinttack/internal/ecosystem/core"
 )
 
 // Provenance returns a registry origin when the configured sources agree.

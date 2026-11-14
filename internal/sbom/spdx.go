@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flinttack/cli/internal/license"
-	"github.com/flinttack/cli/pkg/lockfile"
+	"github.com/flinttack/flinttack/internal/license"
+	"github.com/flinttack/flinttack/pkg/lockfile"
 )
 
 type spdxDoc struct {
