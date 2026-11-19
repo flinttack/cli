@@ -37,8 +37,9 @@ jobs:
         run: bash action/run_test.sh
 
   # The combination users run: this CLI with the newest released engine. The public
-  # release needs no secret, so this also runs on pull requests from forks. FLINTTACK_ENGINE
-  # stays unset so the lookup in the install directory is exercised too.
+  # release needs no secret, so this also runs on pull requests from forks. Some tests
+  # replace HOME, which hides the install directory, so the installed engine is passed
+  # through FLINTTACK_ENGINE.
   test-released-engine:
     runs-on: ubuntu-latest
     steps:
@@ -53,6 +54,7 @@ jobs:
           go build -o bin/ ./cmd/flinttack
           bin/flinttack engine install
           bin/flinttack engine status
+          echo "FLINTTACK_ENGINE=$(find "$HOME/.cache/flinttack/engine" -name flinttack-engine -type f)" >> "$GITHUB_ENV"
       - name: Test
         run: go test ./...
 
