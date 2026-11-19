@@ -27,7 +27,7 @@ const EnvPath = "FLINTTACK_ENGINE"
 const binaryName = "flinttack-engine"
 
 // ErrNotFound is returned when no engine executable can be located.
-var ErrNotFound = errors.New("flinttack-engine not found: install it next to the flinttack executable, put it on PATH, or set " + EnvPath)
+var ErrNotFound = errors.New("flinttack-engine not found: run `flinttack engine install`, put it next to the flinttack executable or on PATH, or set " + EnvPath)
 
 // Options tunes the analysis.
 type Options struct {
@@ -70,6 +70,13 @@ func Locate() (string, error) {
 	if runtime.GOOS == "windows" {
 		name += ".exe"
 	}
+	// A pinned version overrides every other location.
+	if pin := os.Getenv(EnvVersion); pin != "" {
+		if p, ok := installedPath(); ok {
+			return p, nil
+		}
+		return "", fmt.Errorf("flinttack-engine %s is not installed: run `flinttack engine install --version %s`", pin, pin)
+	}
 	if exe, err := os.Executable(); err == nil {
 		if resolved, err := filepath.EvalSymlinks(exe); err == nil {
 			exe = resolved
@@ -78,6 +85,9 @@ func Locate() (string, error) {
 		if st, err := os.Stat(candidate); err == nil && !st.IsDir() {
 			return candidate, nil
 		}
+	}
+	if p, ok := installedPath(); ok {
+		return p, nil
 	}
 	if p, err := exec.LookPath(name); err == nil {
 		return p, nil
@@ -144,6 +154,11 @@ func CheckVersion() (string, error) {
 	if err != nil {
 		return "", err
 	}
+	return checkPath(path)
+}
+
+// checkPath runs the engine at path and verifies its protocol.
+func checkPath(path string) (string, error) {
 	raw, err := exec.Command(path, "version").Output()
 	if err != nil {
 		return "", fmt.Errorf("run engine: %w", err)
@@ -156,7 +171,7 @@ func CheckVersion() (string, error) {
 		return "", fmt.Errorf("invalid engine response: %w", err)
 	}
 	if v.Protocol != ProtocolVersion {
-		return v.Version, fmt.Errorf("engine protocol %d is not supported (this CLI needs %d); update flinttack and flinttack-engine together", v.Protocol, ProtocolVersion)
+		return v.Version, fmt.Errorf("engine protocol %d is not supported (this CLI needs %d); run `flinttack engine install` for a matching engine, or update flinttack", v.Protocol, ProtocolVersion)
 	}
 	return v.Version, nil
 }

@@ -28,15 +28,22 @@ with `gh auth login`; without it the installer stops. Pass `--skip-attestation` 
 without verifying. Windows builds are published as zip archives on the
 [releases page](https://github.com/flinttack/flinttack/releases).
 
-Each release archive holds two executables that belong together:
+Two executables work together:
 
 - `flinttack`: the command-line interface (this repository).
 - `flinttack-engine`: the source-code analysis engine that `flinttack` starts for
-  `sast`, `security`, `chain` and related commands.
+  `sast`, `security`, `chain` and related commands. It is released separately, from
+  [flinttack/engine-releases](https://github.com/flinttack/engine-releases).
 
-`flinttack` looks for the engine in the directory of its own executable, then on `PATH`.
-Set `FLINTTACK_ENGINE` to use an engine at another location. Commands that do not analyze
-source code, such as `scan`, `lock` and `verify`, work without the engine.
+The installer runs `flinttack engine install` for you (`--skip-engine` leaves it out). That
+command downloads the newest engine that speaks this `flinttack`'s protocol, checks its
+sha256 and its GitHub attestation, and keeps it in the user cache. `flinttack engine update`
+installs a newer one and removes the old ones, and `flinttack engine status` shows which
+engine is in use. Set `FLINTTACK_ENGINE_VERSION` to pin a version.
+
+`flinttack` looks for the engine in this order: `FLINTTACK_ENGINE`, the directory of its own
+executable, the engines installed by `flinttack engine install`, then `PATH`. Commands that
+do not analyze source code, such as `scan`, `lock` and `verify`, work without the engine.
 
 ## Usage
 
@@ -70,8 +77,8 @@ A [pre-commit](https://pre-commit.com) hook is provided in
 flinttack uninstall
 ```
 
-This removes the `flinttack` executable, the `flinttack-engine` next to it and the
-response cache. `--dry-run` lists what would go, `--yes` skips the prompt, `--keep-cache`
+This removes the `flinttack` executable, the `flinttack-engine` next to it, the engines
+downloaded by `flinttack engine install` and the response cache. `--dry-run` lists what would go, `--yes` skips the prompt, `--keep-cache`
 keeps the cache. Project files such as `flinttack.lock` are never touched.
 
 ## Documentation
@@ -90,8 +97,8 @@ go test ./...
 
 Building this repository gives you the CLI only. The engine lives in a separate,
 private repository; tests that need it are skipped unless `FLINTTACK_ENGINE` points to a
-`flinttack-engine` executable. `scripts/package.sh <goos> <goarch> <version>` builds both
-into a release archive when the engine is checked out in `engine/`.
+`flinttack-engine` executable; `flinttack engine install` fetches a released one.
+`scripts/package.sh <goos> <goarch> <version>` builds the CLI release archive.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request, and
 [SECURITY.md](SECURITY.md) to report a vulnerability.

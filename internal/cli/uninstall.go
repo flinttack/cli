@@ -11,6 +11,7 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/flinttack/flinttack/internal/engine"
 	"github.com/flinttack/flinttack/internal/httpx"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
@@ -33,7 +34,7 @@ func newUninstallCommand() *cobra.Command {
 		Use:   "uninstall",
 		Short: "Remove flinttack, its analysis engine and its cache from this machine",
 		Long: `Remove the flinttack executable that is running, the flinttack-engine executable next to
-it, and the on-disk response cache. Project files such as flinttack.lock and
+it, the engines downloaded by "flinttack engine install", and the on-disk response cache. Project files such as flinttack.lock and
 .flinttack/ are never touched. An engine found through FLINTTACK_ENGINE or PATH is left
 alone, because the installer did not put it there.
 
@@ -78,6 +79,10 @@ func runUninstall(cmd *cobra.Command, uo *uninstallOptions) error {
 	for _, f := range files {
 		fmt.Fprintf(out, "  %s\n", f)
 	}
+	downloaded := engine.List()
+	if len(downloaded) > 0 {
+		fmt.Fprintf(out, "  %s (downloaded engines)\n", engine.InstallDir())
+	}
 	if !uo.keepCache {
 		fmt.Fprintf(out, "  %s (cached responses)\n", httpx.CacheDir())
 	}
@@ -98,6 +103,13 @@ func runUninstall(cmd *cobra.Command, uo *uninstallOptions) error {
 	}
 
 	var failed []string
+	if len(downloaded) > 0 {
+		if _, err := engine.Remove(""); err != nil {
+			failed = append(failed, fmt.Sprintf("engines: %v", err))
+		} else {
+			os.Remove(engine.InstallDir())
+		}
+	}
 	if !uo.keepCache {
 		if _, err := httpx.Clear(); err != nil {
 			failed = append(failed, fmt.Sprintf("cache: %v", err))
