@@ -38,8 +38,12 @@ Two executables work together:
 The installer runs `flinttack engine install` for you (`--skip-engine` leaves it out). That
 command downloads the newest engine that speaks this `flinttack`'s protocol, checks its
 sha256 and its GitHub attestation, and keeps it in the user cache. `flinttack engine update`
-installs a newer one and removes the old ones, and `flinttack engine status` shows which
-engine is in use. Set `FLINTTACK_ENGINE_VERSION` to pin a version. Releases before the engine
+installs a newer one and removes the old ones, `flinttack engine list` shows the published
+releases that fit, and `flinttack engine status` shows which engine is in use. An installed
+version is not downloaded again unless you pass `--force`. Set `FLINTTACK_ENGINE_VERSION` to pin
+a version. `flinttack doctor` reports an engine that is missing or that this `flinttack` cannot
+use. The GitHub Action installs the engine for `sast` and `security`; its `engine-version`
+input pins a release. Releases before the engine
 was split out shipped it next to `flinttack`, and that copy wins over installed ones;
 `flinttack engine update` installs the newest engine and removes that copy.
 
