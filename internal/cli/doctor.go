@@ -2,6 +2,7 @@ package cli
 
 import (
 	"github.com/flinttack/flinttack/internal/doctor"
+	"github.com/flinttack/flinttack/internal/engine"
 	"github.com/flinttack/flinttack/internal/finding"
 	"github.com/spf13/cobra"
 )
@@ -22,6 +23,7 @@ func newDoctorCommand(opts *options) *cobra.Command {
 				LockPath:   opts.lockPath,
 				PolicyPath: opts.policy,
 				Profile:    opts.profile,
+				Engine:     engine.CheckVersion,
 
 				ExceptionsPath: opts.exceptions,
 			}).WithLocation(reportLocation(projectPath(args), opts.lockPath))
