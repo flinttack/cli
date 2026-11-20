@@ -39,7 +39,9 @@ The installer runs `flinttack engine install` for you (`--skip-engine` leaves it
 command downloads the newest engine that speaks this `flinttack`'s protocol, checks its
 sha256 and its GitHub attestation, and keeps it in the user cache. `flinttack engine update`
 installs a newer one and removes the old ones, and `flinttack engine status` shows which
-engine is in use. Set `FLINTTACK_ENGINE_VERSION` to pin a version.
+engine is in use. Set `FLINTTACK_ENGINE_VERSION` to pin a version. Releases before the engine
+was split out shipped it next to `flinttack`, and that copy wins over installed ones;
+`flinttack engine update` installs the newest engine and removes that copy.
 
 `flinttack` looks for the engine in this order: `FLINTTACK_ENGINE`, the directory of its own
 executable, the engines installed by `flinttack engine install`, then `PATH`. Commands that
